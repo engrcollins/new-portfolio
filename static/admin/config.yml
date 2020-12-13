@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: engrcollins/new-portfolio
   branch: main
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
