@@ -3,6 +3,7 @@ import { Link , graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
+import blogStyles from "./blog.module.scss";
 import PostCard from "../components/post-card"
 import SEO from "../components/seo"
 
@@ -98,9 +99,14 @@ class BlogIndex extends React.Component {
           title={"Blog — Page " + currentPage + " of " + numPages}
           description={"Stackrole base blog page " + currentPage + " of " + numPages }
         />
-        <h1>Blog</h1>
-        <div className="grids col-1 sm-2 lg-3">
-          {posts}
+        <div className={blogStyles.heading}>
+          <h3><b>WELCOME TO MY BLOG</b></h3>
+          <h5 align="center">Articles, tutorials, snippets, musings, and every other writings...</h5>
+        </div>
+        <div className={blogStyles.blogcontainer}>
+          <div className={blogStyles.list}>
+              {posts}
+          </div>
         </div>
         <Pagination {...props} />
       </Layout>

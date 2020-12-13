@@ -1,17 +1,31 @@
-*,
-*:after,
-*:before {
-	box-sizing: border-box;
+$primaryColor: #464646;
+$secondaryColor: #f33d00;
+$mainWhite: #fff;
+
+* {
+  box-sizing: border-box;
+  //outline: 2px solid red;
 }
-html,
+
 body {
-	margin: 0;
-	padding: 0;
+	color: $primaryColor;
+  font-size: 100%;
+  margin: 0;
+  line-height: 1.4283;
+  font-family: "Segoe UI", Roboto, Verdana, "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
 }
-body {
-	font-family: var(--font-family);
-	font-size: 18px;
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
 }
+a {
+  color: $secondaryColor;
+  text-decoration: none;
+}
+
 code {
 	font-family: var(--font-family-mono);
 } 
@@ -19,7 +33,7 @@ main {
 	p { line-height: 1.5; }
 }
 a {
-	color: var(--home-link-color);
+	color: $secondaryColor;;
 	text-decoration: none;
 	&:hover {
 		color: var(--home-link-hover-color);

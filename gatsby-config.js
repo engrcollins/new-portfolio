@@ -29,6 +29,20 @@ module.exports = {
         name: `content`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images/`,
+        name: `images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages/`,
+        name: `pages`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -36,6 +50,13 @@ module.exports = {
       options: {
         gfm: true,
         plugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 600,
+              linkImagesToOriginal: false,
+            },
+          },
           netlifyCmsPaths,
           `gatsby-remark-reading-time`,
           {
@@ -79,7 +100,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Foundation`,
+        name: `Collins A.`,
         short_name: `Foundation`,
         start_url: `/`,
         background_color: `#f7f0eb`,

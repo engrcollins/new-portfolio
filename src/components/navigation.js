@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { Button } from 'react-bootstrap';
 
 const MenuItems = [
   {
@@ -8,12 +9,12 @@ const MenuItems = [
     title: "Home"
   },
   {
-    path: "/about",
-    title: "About"
-  },
-  {
     path: "/blog",
     title: "Blog"
+  },
+  {
+    path: "/about",
+    title: "About"
   },
   {
     path: "/contact",
@@ -40,7 +41,7 @@ class Navigation extends React.Component {
 
   render () {
     const listMenuItems = MenuItems.map((menuItem, index) => 
-      <ListLink key={index} to={menuItem.path}>{menuItem.title}</ListLink>
+      <button><ListLink key={index} to={menuItem.path}>{menuItem.title}</ListLink></button>
     )
     return (
       <nav className="site-navigation">

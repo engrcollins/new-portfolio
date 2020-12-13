@@ -1,13 +1,35 @@
 import React from "react"
-import {Link} from "gatsby"
-import { RiHeart2Line } from "react-icons/ri";
+import { useStaticQuery, graphql } from "gatsby";
+import footerStyles from "./footer.module.scss"
 
-const Footer = () => (
-  <footer className="site-footer">
-    <div className="container">
-      <p>A GatsbyJS Starter for Netlify CMS, Made with <span className="icon -love"><RiHeart2Line/></span> by <Link to="/">Stackrole.com</Link></p>
-    </div>
-  </footer>
-)
+const query = graphql`
+query FooterQuery {
+  site {
+    siteMetadata {
+      author: author
+    }
+  }
+}
+`
+const Footer = () => {
+
+  const { site } = useStaticQuery(query)
+  const { author } = site.siteMetadata
+  return (
+    <footer>
+    <div className={footerStyles.scallopUp}></div>
+      <div className={footerStyles.siteFooter}>
+        <div className={footerStyles.footcontainer}>
+          <p>
+            Site developed with 💖 by <a href="www.twitter.com/engrcollins14" style={{color:'#f44f18'}}>{author}</a> 
+            <br />
+            &copy;{" "}
+            {new Date().getFullYear().toString()}{" "}
+          </p>
+        </div>
+      </div>
+    </footer>
+  )
+}
 
 export default Footer

@@ -1,14 +1,16 @@
 @import "theme-variables";
 @import "defaults";
 @import "lib/css-grid-utility";
+@import "~bootstrap/scss/bootstrap";
+
 
 // .primary-container {
 // 	display: grid;
 // 	grid-template-rows: 60px auto 60px;
 // 	min-height: 100vh;
 // }
-.primary-container main {
-	min-height: calc(100vh - 60px - 81px);
+*{
+  /*outline: 1px solid green;*/
 }
 .site-header {
   display: flex;
@@ -16,27 +18,32 @@
   align-items: center;
   position: relative;
   background: var(--header-bg);
-  padding: 30px 20px;
+	padding: 12px 6px;
 }
 .site-navigation {
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  ul li {
-    display: inline-block;
-    margin-left: 20px;
+	}
+	
+	ul button {
+		display: inline-block;
+		margin-left: 20px;
+		width: 70px;
+		background-color: #f7f0f0;
+		&:hover {
+			background-color: #3c77f5;
+		}
   }
   a {
-    color: rgba(255,255,255,0.6);
-    text-decoration: none;
-    &:hover {
-      color: rgba(255,255,255,0.8);
-    }
+		text-decoration: none;
+		color: #120055;
   }
   a[aria-current="page"] {
-    color: rgba(255,255,255,1)
+		color: #000000;
+		font-weight: bolder;
+		font-size: 16px;
   }
   .menu-trigger {
     display: none;
@@ -47,10 +54,11 @@
     padding: 0;
     cursor: pointer;
   }
-  @media (max-width: $breakpoint-lg) {
+  @media (max-width: $breakpoint-md) {
     .menu-trigger,
     .icon-menu-line {
-      display: flex;
+			display: flex;
+			right: 0;
     }
 
     .icon-menu-close {
@@ -61,44 +69,49 @@
         display: none;
       }
       .icon-menu-close {
-        display: flex;
+				display: flex;
+				right: 0;
       }
     }
     .menu-trigger.is-active + ul {
-      display: block;
+			display: block;
+			right: 0;
     }
     ul {
       display: none;
       position: absolute;
-      right: 0;
+      left: 0;
       top: 100%;
       z-index: 1;
-      background: #421E2F;
-      width: 100%;
-			max-width: 320px;    
+			background: var(--header-bg);
+			width: 120px;
+			max-width: 220px;    
 			border-radius: 0 0 0 12px;
       overflow: hidden;
     }
-    ul li {
-      display: block;
-      margin-left: 0;
-    }
-    a {
-      display: block;
-      padding: 20px;
-    }
-    a:hover {
-      background-color: #29121D;
-    }
+		ul button {
+			display: block;
+			margin-bottom: 10px;
+			width: 60%;
+			background-color: #f7f0f0;
+			&:hover {
+				background-color: #3c77f5;
+			}
+		}
+		a {
+			text-decoration: none;
+			color: #120055;
+		}
+		a[aria-current="page"] {
+			color: #000000;
+			font-weight: bolder;
+			font-size: 16px;
+		}
   }
 }
-.container {
-	margin: 0 auto;
-	max-width: 1240px;
-	padding: 0 20px;
-}
-.site-logo {
-  font-weight: bold;
+
+.site-nav {
+	font-weight: bold;
   a {
     color: #fff;
 		text-decoration: none;
@@ -110,44 +123,54 @@
     font-size: 20px;
   }
 }
-.home-banner {
-	padding: 60px 0;
-	align-items: center;
-	.title {
-		font-size: 48px;
-		line-height: 48px;
-		margin: 0 0 5px;
-		font-weight: 900;
-	}
-	.tagline {
-		font-size: 24px;
-		margin-top: 0;
-		margin-top: 2px;
-		color: rgba(0,0,0,0.7)
-	}
-	.description {
-		font-size: 20px;
-		line-height: 1.4;
-		margin-bottom: 30px;
-	}
-	.featured-image {
-		border-radius: 12px;
-	}
-	@media (max-width: $breakpoint-md) {
-		padding-top: 30px;
-		> div:nth-child(1) {
-			padding-bottom: 30px;
-		}
-	}
+
+.socialMedia{
+  display: inline-flex;
+  margin: 0;
 }
-.home-posts {
-	.grids {
-		padding-bottom: 30px;
-	}
-	padding-bottom: 100px;
+
+.socialMedia div{
+  margin: 2px;
+
 }
+
+.fa{
+  padding: 10px;
+  margin: 4px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-github{
+  background: rgb(99, 99, 99);
+  color: white;
+}
+
+.fa-twitter{
+  background: #678fe6;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-stackOverflow {
+  background: #007bb5;
+  color: white;
+  padding: 8px;
+  margin: 5px;
+}
+
 .post-card {
-	padding: 16px;
+	margin:8px;
+	min-width: 400px;
+	max-width: 100%;
+	padding: 10px;
 	border: 1px solid rgba(0,0,0,0.08);
 	background-color:#fff;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.05);
@@ -296,17 +319,8 @@ article img {
 }
 
 // Page
-.page,
-.blog-page,
-.contact-page,
-.thanks-page,
-.not-found-page {
-	padding: 50px 20px;
-	.wrapper {
-		max-width: 768px;
-		margin: 0 auto;
-	}
-}
+
+
 // Contact page
 .contact-page {
 	.wrapper {
