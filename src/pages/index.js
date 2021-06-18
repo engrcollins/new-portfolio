@@ -108,7 +108,7 @@ const IndexPage = () => {
       <br />
 
       <div>
-      <Rotate top left>
+      <Shake>
         <h3><b>Latest Projects</b></h3>
         <ListGroup>
           <ListGroupItem>
@@ -125,7 +125,7 @@ const IndexPage = () => {
             <a href="https://collinsakinbami.netlify.app" target="_blank">Collins Akinbami</a><Badge variant="secondary" style={{float:"right"}}>Gatsby</Badge><Badge variant="warning" style={{float:"right"}}>JavaScript</Badge>
           </ListGroupItem>
         </ListGroup>
-        </Rotate>
+        </Shake>
       </div>
       <br />
 

@@ -27,7 +27,6 @@ const Layout = (props) => {
     <div className={layoutStyles.prycontainer}>
       <Helmet>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f5a0e50edaeb70012ee76db&product=sop' async='async'></script>
       </Helmet>
       <Banner title={siteTitle} />
       <Header>
