@@ -27,7 +27,7 @@ const IndexPage = () => {
             <br />
             <b style={{fontSize:"18px"}}>I'm a Software Developer, Telecoms Engineer and budding Cloud Engineer.</b>
             <br /><br />
-            <i style={{fontSize:"16px"}}>If you have a web project or creative need that I can help with, kindy contact me👇:</i>
+            <i style={{fontSize:"16px"}}>If you have a software project or creative need that I can help with, kindy contact me👇:</i>
             <br />
             <div className="socialMedia">
               <a href="https://github.com/engrcollins" target="_blank">
@@ -62,7 +62,7 @@ const IndexPage = () => {
     <div className={indexStyles.about}>
       <Zoom>
       <p>
-          I'm passionate about open-source and technology in general. I have extensive experience in designing and developing websites using HTML5, CSS, JavaScript, ReactJS, jQuery, Bootstrap, Material UI, NodeJS, PHP amongst other tools. If I am not coding, you can find me reading, working out or watching football.
+          I'm passionate about software and technology in general. I have extensive experience in designing and developing websites using HTML5, CSS, JavaScript, ReactJS, jQuery, Bootstrap, Material UI, NodeJS, PHP amongst other tools. If I am not coding, you can find me reading, working out or watching football.
       </p>
       </Zoom>
     </div>
@@ -169,13 +169,13 @@ const IndexPage = () => {
               <br />
               <ul>
                 <li>
-                  <a href="https://twitter.com/engrcollins14" target="_blank"><i class="fa fa-twitter fa-2x " style={{fontSize:"14px", borderRadius:'2%', padding:'4px'}}><b> Twitter</b></i></a>
+                  <a href="https://twitter.com/engrcollins14" target="_blank"><i class="fa fa-twitter fa-1x " style={{fontSize:"13px", borderRadius:'3%', padding:'4px'}}><b> Twitter</b></i></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/collins-akinbami-81b58270/" target="_blank"><i class="fa fa-linkedin fa-2x " style={{fontSize:"14px", borderRadius:'2%', padding:'4px'}}><b> LinkedIn</b></i></a>
+                  <a href="https://www.linkedin.com/in/collins-akinbami-81b58270/" target="_blank"><i class="fa fa-linkedin fa-2x " style={{fontSize:"13px", borderRadius:'3%', padding:'4px'}}><b> LinkedIn</b></i></a>
                 </li>
                 <li>
-                  <a href="https://github.com/engrcollins" target="_blank"><i class="fa fa-github fa-2x " style={{fontSize:"14px", borderRadius:'2%', padding:'4px'}}><b> Github</b></i></a>
+                  <a href="https://github.com/engrcollins" target="_blank"><i class="fa fa-github fa-2x " style={{fontSize:"13px", borderRadius:'3%', padding:'4px'}}><b> Github</b></i></a>
                 </li>
               </ul>
               </Col>

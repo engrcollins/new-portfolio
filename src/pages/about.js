@@ -23,7 +23,7 @@ const About = () => {
           </p>
 
           <p>
-          My strive for better academic value took me to <a href='https://oauife.edu.ng/' target='_blank'>Obafemi Awolowo University Ile-Ife, Nigeria</a> where I was admitted via Direct Entry to study Materials Science & Engineering in same 2010. Here, I was privileged to be the departmental Electoral Chairman that conducted & supervised departmental elections in 2014. I graduated from the ivory tower with 2nd Class Upper Division.
+          My strive for better academic value took me to <a href='https://oauife.edu.ng/' target='_blank'>Obafemi Awolowo University Ile-Ife, Nigeria</a> where I was admitted via Direct Entry to study Materials Engineering in same 2010. Here, I was privileged to be the departmental Electoral Chairman that conducted & supervised departmental elections in 2014. I graduated from the ivory tower with 2nd Class Upper Division.
           </p>
 
           <p>
@@ -35,19 +35,14 @@ const About = () => {
           </p>
 
           <p>
-            February 2021, after the 3rd wave of Covid-19 seemed to subdue, I moved to Nigeria and started working for <a href="https://www.tek-experts.com/" target = "_blank">Tek Experts</a> as Azure Developer Support Engineer. There, I am supporting Microsoft customers using the <a href="https://azure.microsoft.com/en-us/overview/what-is-paas/" target="_blank">Microsoft Azure PaaS (Platform as a Service)</a> solutions.
+            February 2021, after the 3rd wave of Covid-19 subdued, I moved back to Nigeria and started working with <a href="https://www.tek-experts.com/" target = "_blank">Tek Experts</a> as Azure Developer Support Engineer - supporting Microsoft customers using the <a href="https://azure.microsoft.com/en-us/overview/what-is-paas/" target="_blank">Microsoft Azure PaaS (Platform as a Service)</a> solutions.
           </p>
-
-          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bcf41cd3-300c-4d2f-b695-2addbe95695a" data-share-badge-host="https://www.credly.com">
-
-          </div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
 
           <p>
           I also work as a freelance Software Engineer and I have much deeper interests in JavaScript, ReactJS, NodeJS and Python. The web development journey started in 2018 when I started out self-learning Vanilla JavaScript as an hobby. I taught myself how to build basic websites using pure HTML, CSS and JavaScript with the help of <a href="https://w3schools.com" target="_blank">W3school</a> and <a href="https://theodinproject.com" target="_blank">The Odin Project</a>. Today, I am highly proficient not only in Vanilla JavaScript but also prominent JavaScript libraries like jQuery, ReactJS, NodeJS.
           </p>
           
-          <p>Furthermore, I learned(and am still learning) many other web development technologies, libraries and frameworks like Bootstrap, Gatsby, Webpack, Sass, ExpressJS, NextJs as well as the popular distributed version control system, Git and Github. The learning still continues, there is no end to it.
+          <p>Furthermore, I learned(and am still learning) many other software technologies, libraries and frameworks like Bootstrap, Gatsby, Webpack, Sass, ExpressJS, NextJs as well as the popular distributed version control system, Git and Github. The learning still continues, there is no end to it.
           </p>
 
           <div className="certification-list">

@@ -176,6 +176,10 @@
 	box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 	border-radius: 12px;
 	transition: box-shadow .3s linear;
+
+	@media (max-width: $breakpoint-sm) {
+		min-width: 270px;
+	}
 	.featured-image {
 		border-radius: 12px;
 		img {
@@ -204,12 +208,12 @@
 		color: rgba(0,0,0,0.5);
 	}
 	.post-content {
-		margin-top: 16px;
+		margin-top: 10px;
 	}
 	@media (max-width: $breakpoint-md) {
 		padding: 0;
 		.post-content {
-			padding: 16px;
+			padding: 10px;
 			margin-top: 0;
 		}
 		.featured-image {
@@ -262,10 +266,15 @@ article img {
 	max-width: 100%;
 }
 .blog-post-content {
-	margin:0 auto;
-	padding: 30px;
+	margin:0 25px;
+	padding: 20px 40px;
 	line-height: 1.5;
 	font-size: 16px;
+
+	@media (max-width: $breakpoint-md) {
+		margin:0 5px;
+		padding: 5px 10px;	
+	}
 }
 
 .blog-post {
