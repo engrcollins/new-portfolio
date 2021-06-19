@@ -2,9 +2,9 @@
 template: blog-post
 title: "My Favourite Quotes"
 date: "2020-08-08"
-slug: /the-real-cost-of-learning
+slug: /my-favourite-quotes
 description: sdasod
-featuredImage: /assets/quotes.jpg"
+featuredImage: /assets/quotes.jpg
 author: "Collins Akinbami"
 ---
 Below is the collection of my favourite quotes of all time. I hope you enjoy them...

@@ -29,7 +29,7 @@ The hardware layer takes care of turning these packets into electronic signal fo
 <p> 
 In-between these destination and source computers/devices are a lot of other network components that do the routing, modulation, demodulation and transmission. A data sent over the internet will journey through the routers and other infrastructure of the ISPs before getting to its destination. The packets most times take the shortest possible routes to reach their destination. And all these happen in a matter of micro-seconds to milliseconds depending on distance and routes. Now let's dive in deeper to the packets transmission and routing.
 <br/>
-<center><img src="../images/routers.jpg" width="70%" alt='Routers'><br />Packets routes.</center>
+<center><img src="/assets/routers.jpg" width="70%" alt='Routers'><br />Packets routes.</center>
 <br />
 The source computer/device initiates the packets sending with the help of a modem. Data packets traverse the public telephone network using the Radio Frequency (RF) energy which can transmit signals even through walls and other objects. The modem gets these packets onto and off this RF carrier by modulation and demodulation. Stand-alone modem can be used for connecting a local network (of devices) to the Internet Service Providers(ISPs) while modern cellphones have in-built modems which make it possible for the mobile phones to access the internet via telephone network providers' infrastructures like radio towers. These telephone infrastructures are used because they are readily available and ideal.
 </p>
@@ -56,7 +56,7 @@ Tier 1 ISPs: These are the giant firms that provide and manage major backbone ne
 </p>
 <p>
 Generally, ISPs at the same level/tier allow peer traffic through one another's network without paying any recurrent access fee.  These ISPs are called Peers. ISPs achieved this by building infrastructures such as underground sea cables across the oceans for the purpose of connecting to peer ISPs and not end users of internet.
-<center><img src="../images/isp-infrastructures.jpg" width="70%" alt='ISP Infrastructures'><br />A Typical ISP Infrastructure.</center>
+<center><img src="/assets/isp-infrastructures.jpg" width="70%" alt='ISP Infrastructures'><br />A Typical ISP Infrastructure.</center>
 </p>
 <p>
 This is the simplest approach to knowing how the internet works. Watch out for more of my articles that dissect routing and other core infrastructures on the internet.

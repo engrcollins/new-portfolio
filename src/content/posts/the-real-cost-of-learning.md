@@ -1,7 +1,7 @@
 ---
 template: blog-post
 slug: /the-real-cost-of-learning
-description: sdasd
+description: learning
 featuredImage: /assets/bench-accounting-nvzvopqw0gc-unsplash.jpg
 title: "The Real Cost of Learning"
 date: "2020-08-21"
@@ -23,8 +23,6 @@ By definition, source code is a list of text commands that is written by compute
 
 ##### <b>The paradigm shift</b>
 The main advantage of Open Source is that it is generally free and you do not have to pay for using it as accessing most of these contents is dependent on internet availability and free sign up. This saves a lot of money for big corporations and even for ordinary users. I mean why pay for AutoCAD when you can use QCAD to create blueprints for your building, computer chips and car parts? Why pay for Photoshop when you can use Gimp to edit and enhance your images? Why pay for Microsoft Office while you can use LibreOffice to write, calculate and do excellent presentations? Most licenses of the proprietary software systems are expensive and should be renewed every year. As we know it is really important for any big company to reduce the expenses as much as possible.
-<center><img src="https://www.volacci.com/sites/default/files/styles/blog_main_image/public/blog/image/open-source.jpeg?itok=VZDaDSRZ" width="70%" alt='open source'><br />Open source. (image from: <a href='https://www.volacci.com/sites/default/files/styles/blog_main_image/public/blog/image/open-source.jpeg?itok=VZDaDSRZ' target='_BLANK'>Morello Digital</a>)</center>
-<br/><br />
 
 Be that as it may, it is also worthy of note that corporations do donate money(voluntarily, if they are happy with the used software) to the communities in order to be able to continue their work and develop new versions. Most open source applications have their own communities which are constantly evolving the software thus improving its quality and security... like I explained earlier, when a user finds a bug, the bug will be reported to the community and they will respond with fixes as soon as possible. This will birth new patch.
 
@@ -32,7 +30,7 @@ I am as well a product of open source communities. I started learning how to cod
 
 Furthermore, there are now various online learning platforms accessible with little or no cost. The popular ones being; <a href='https://codeacademy.com' target='_BLANK'>Code Academy</a>, <a href='https//iversity.org' target='_BLANK'>iversity</a>, <a href='https//freecodecamp.org' target='_BLANK'>FreeCodeCamp</a>, <a href='https//khanacademy.org' target='_BLANK'>Khan Academy</a>, <a href='https://linkedin.com/learning-login' target='_BLANK'>Linkedin Learning</a>, <a href='https//lynda.com' target='_BLANK'>Lynda</a>, <a href='https://theodinproject.com' target='_BLANK'>The Odin Project</a>, <a href='https//w3schools.com' target='_BLANK'>W3schools</a>.
 
-<center><img src="../images/workstation.jpg" width="70%" alt='Learning workstation'><br />Workstation.</center>
+<center><img src="/assets/workstation.jpg" width="70%" alt='Learning workstation'><br />Workstation.</center>
 <br/><br />
 
 ##### <b>The new challenge of learning</b>

@@ -27,7 +27,7 @@ const IndexPage = () => {
             <br />
             <b style={{fontSize:"18px"}}>I'm a Software Developer, Telecoms Engineer and budding Cloud Engineer.</b>
             <br /><br />
-            <i style={{fontSize:"16px"}}>If you have a software project or creative need that I can help with, kindy contact me👇:</i>
+            <i style={{fontSize:"16px"}}>If you have a software project or creative need that I can help with, kindly contact me👇:</i>
             <br />
             <div className="socialMedia">
               <a href="https://github.com/engrcollins" target="_blank">
