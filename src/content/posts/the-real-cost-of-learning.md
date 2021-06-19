@@ -1,6 +1,6 @@
 ---
 template: blog-post
-slug: /the-real-cost-of-learning
+slug: /blog/the-real-cost-of-learning
 description: learning
 featuredImage: /assets/bench-accounting-nvzvopqw0gc-unsplash.jpg
 title: "The Real Cost of Learning"

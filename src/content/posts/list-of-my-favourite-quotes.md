@@ -2,7 +2,7 @@
 template: blog-post
 title: "My Favourite Quotes"
 date: "2020-08-08"
-slug: /my-favourite-quotes
+slug: /blog/my-favourite-quotes
 description: sdasod
 featuredImage: /assets/quotes.jpg
 author: "Collins Akinbami"

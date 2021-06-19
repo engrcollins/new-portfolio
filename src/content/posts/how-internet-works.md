@@ -4,7 +4,7 @@ featuredImage: /assets/how-internet-works.jpg
 title: "How The Internet Works"
 date: "2020-12-04"
 author: "Collins Akinbami"
-slug: /how-the-internet-works
+slug: /blog/how-the-internet-works
 description: ltr
 ---
 Many people, especially the non-techie folks, always wonder how the internet works. Basically, the internet is a global network of computers for communication. This makes it possible for people with access to connect and communicate - sending and receiving messages, all sorts of files (e.g. doc, gif, html, URL request, audio, videos etc.). But there is more to it than some of us could imagine. 
